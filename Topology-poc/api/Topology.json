@@ -1,0 +1,946 @@
+[
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e034b"
+    },
+    "name": "Link Class 18",
+    "index": 1,
+    "node1Class": "Node Class 15",
+    "_type": "linkClass",
+    "node2Class": "Node Class 10",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e034c"
+    },
+    "name": "Link Class 1",
+    "index": 2,
+    "node1Class": "Node Class 1",
+    "_type": "linkClass",
+    "node2Class": "Node Class 2",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e034d"
+    },
+    "name": "Link Class 2",
+    "index": 3,
+    "node1Class": "Node Class 3",
+    "_type": "linkClass",
+    "node2Class": "Node Class 1",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e034e"
+    },
+    "name": "Link Class 3",
+    "index": 4,
+    "node1Class": "Node Class 4",
+    "_type": "linkClass",
+    "node2Class": "Node Class 3",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e034f"
+    },
+    "name": "Link Class 6",
+    "index": 5,
+    "node1Class": "Node Class 7",
+    "_type": "linkClass",
+    "node2Class": "Node Class 1",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0350"
+    },
+    "name": "Link Class 5",
+    "index": 6,
+    "node1Class": "Node Class 1",
+    "_type": "linkClass",
+    "node2Class": "Node Class 8",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0351"
+    },
+    "name": "Link Class 7",
+    "index": 7,
+    "node1Class": "Node Class 9",
+    "_type": "linkClass",
+    "node2Class": "Node Class 8",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0352"
+    },
+    "name": "Link Class 10",
+    "index": 8,
+    "node1Class": "Node Class 10",
+    "_type": "linkClass",
+    "node2Class": "Node Class 11",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0353"
+    },
+    "name": "Link Class 11",
+    "index": 9,
+    "node1Class": "Node Class 11",
+    "_type": "linkClass",
+    "node2Class": "Node Class 12",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0354"
+    },
+    "name": "Link Class 12",
+    "index": 10,
+    "node1Class": "Node Class 11",
+    "_type": "linkClass",
+    "node2Class": "Node Class 13",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0355"
+    },
+    "name": "Link Class 13",
+    "index": 11,
+    "node1Class": "Node Class 11",
+    "_type": "linkClass",
+    "node2Class": "Node Class 14",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0356"
+    },
+    "name": "Link Class 8",
+    "index": 12,
+    "node1Class": "Node Class 15",
+    "_type": "linkClass",
+    "node2Class": "Node Class 5",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0357"
+    },
+    "name": "Link Class 4",
+    "index": 13,
+    "node1Class": "Node Class 18",
+    "_type": "linkClass",
+    "node2Class": "Node Class 16",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0358"
+    },
+    "name": "Link Class 9",
+    "index": 14,
+    "node1Class": "Node Class 6",
+    "_type": "linkClass",
+    "node2Class": "Node Class 24",
+    "drawOrder": 0
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0359"
+    },
+    "node1Addresses": "10.30.1.43",
+    "configurationState": "Confirmed",
+    "node1": "CoreSwitch",
+    "serverNode": "",
+    "index": 1,
+    "node2": "AuthHosts",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": true,
+    "node2Addresses": ":[20001-22442],:[22449-22973],:[30100-30999]",
+    "name": "Hosts",
+    "protocol": "None",
+    "framing": "NDC+",
+    "collector": "ATM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 1"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e035a"
+    },
+    "node1Addresses": "10.30.1.238:[23000-23442],10.30.1.238:[23449-23631],10.30.1.238:[23633-23999]",
+    "configurationState": "Confirmed",
+    "node1": "OldBankSwitch",
+    "serverNode": "",
+    "index": 2,
+    "node2": "CoreSwitch",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "10.30.1.43",
+    "name": "OldBank2",
+    "protocol": "None",
+    "framing": "NDC+",
+    "collector": "ATM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 2"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e035b"
+    },
+    "node1Addresses": ":",
+    "configurationState": "Confirmed",
+    "node1": "OldBankATMs",
+    "serverNode": "",
+    "index": 3,
+    "node2": "OldBankSwitch",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "10.30.1.238:7665",
+    "name": "OldBank1",
+    "protocol": "None",
+    "framing": "NDC+",
+    "collector": "ATM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 3"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e035c"
+    },
+    "node1Addresses": "156.55.37.203",
+    "configurationState": "Confirmed",
+    "node1": "RetailPOS",
+    "serverNode": "",
+    "index": 4,
+    "node2": "CoreSwitch",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": ":",
+    "name": "RetailPOS1",
+    "protocol": "None",
+    "framing": "NDC+",
+    "collector": "ATM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 6"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e035d"
+    },
+    "node1Addresses": "10.30.1.43",
+    "configurationState": "Confirmed",
+    "node1": "CoreSwitch",
+    "serverNode": "",
+    "index": 5,
+    "node2": "NewBankSwitch",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": ":",
+    "name": "NewBank2",
+    "protocol": "None",
+    "framing": "NDC+",
+    "collector": "ATM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 5"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e035e"
+    },
+    "node1Addresses": ":",
+    "configurationState": "Confirmed",
+    "node1": "NewBankATMs",
+    "serverNode": "",
+    "index": 6,
+    "node2": "NewBankSwitch",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "10.30.1.97:7001",
+    "name": "NewBank1",
+    "protocol": "None",
+    "framing": "NDC+",
+    "collector": "ATM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 7"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e035f"
+    },
+    "node1Addresses": ":",
+    "configurationState": "Confirmed",
+    "node1": "Clients",
+    "serverNode": "",
+    "index": 7,
+    "node2": "Web Server",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "192.168.168.143:8080",
+    "name": "Web",
+    "protocol": "None",
+    "framing": "HTTP",
+    "collector": "ECOMM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 8"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0360"
+    },
+    "node1Addresses": "192.168.168.143:*",
+    "configurationState": "Confirmed",
+    "node1": "Web Server",
+    "serverNode": "",
+    "index": 8,
+    "node2": "Broker",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "192.168.168.207:5672",
+    "name": "Middleware",
+    "protocol": "AMQP",
+    "framing": "None",
+    "collector": "ECOMM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 18"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0367"
+    },
+    "labelX": 18.5,
+    "name": "Node Class 1",
+    "x": 497,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": -28,
+    "y": 123
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0361"
+    },
+    "node1Addresses": "192.168.168.207:5672",
+    "configurationState": "Confirmed",
+    "node1": "Broker",
+    "serverNode": "",
+    "index": 9,
+    "node2": "Biz Logic",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "192.168.168.170:*",
+    "name": "Backend",
+    "protocol": "AMQP",
+    "framing": "None",
+    "collector": "ECOMM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 10"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0362"
+    },
+    "node1Addresses": "192.168.168.170:*",
+    "configurationState": "Confirmed",
+    "node1": "Biz Logic",
+    "serverNode": "",
+    "index": 10,
+    "node2": "Delivery Quote",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "159.204.50.123:80",
+    "name": "Delivery",
+    "protocol": "None",
+    "framing": "HTTP",
+    "collector": "ECOMM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 11"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0363"
+    },
+    "node1Addresses": "192.168.168.170:*",
+    "configurationState": "Confirmed",
+    "node1": "Biz Logic",
+    "serverNode": "",
+    "index": 11,
+    "node2": "Payment Processor",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "192.168.168.172:54321",
+    "name": "Payment",
+    "protocol": "None",
+    "framing": "NDC+",
+    "collector": "ECOMM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 12"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0364"
+    },
+    "node1Addresses": "192.168.168.170:*",
+    "configurationState": "Confirmed",
+    "node1": "Biz Logic",
+    "serverNode": "",
+    "index": 12,
+    "node2": "DB Server",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "192.168.168.168:1036",
+    "name": "Database",
+    "protocol": "SQLServer",
+    "framing": "None",
+    "collector": "ECOMM",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 13"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0365"
+    },
+    "node1Addresses": ":",
+    "configurationState": "Confirmed",
+    "node1": "LendingClient",
+    "serverNode": "",
+    "index": 13,
+    "node2": "LendingHost",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": "172.32.245.109:80,172.32.245.200:80,172.32.245.201:80,172.32.245.202:80,172.32.245.203:80,172.32.245.204:80,172.32.245.205:80,172.32.245.206:80",
+    "name": "Lending",
+    "protocol": "None",
+    "framing": "HTTP",
+    "collector": "LOAN",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 4"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0366"
+    },
+    "node1Addresses": "172.32.245.101:10101",
+    "configurationState": "Confirmed",
+    "node1": "BankingHost",
+    "serverNode": "",
+    "index": 14,
+    "node2": "WebBankingServer",
+    "type": "TCP",
+    "_type": "link",
+    "drawOrder": 0,
+    "unidirectional": false,
+    "node2Addresses": ":",
+    "name": "WebBanking",
+    "protocol": "None",
+    "framing": "ETX",
+    "collector": "OS",
+    "observationState": "Observed",
+    "staticConnection": true,
+    "linkClass": "Link Class 9"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0368"
+    },
+    "labelX": -18.5,
+    "name": "Node Class 2",
+    "x": 636,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 25,
+    "y": 117
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0369"
+    },
+    "labelX": 16.5,
+    "name": "Node Class 3",
+    "x": 402,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": -13,
+    "y": 79
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e036a"
+    },
+    "labelX": -40,
+    "name": "Node Class 4",
+    "x": 294,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": -29,
+    "y": 45
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e036b"
+    },
+    "labelX": -18.5,
+    "name": "Node Class 7",
+    "x": 388,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 25,
+    "y": 250
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e036c"
+    },
+    "labelX": 22.5,
+    "name": "Node Class 8",
+    "x": 539,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": -2,
+    "y": 250
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e036d"
+    },
+    "labelX": -81.5,
+    "name": "Node Class 9",
+    "x": 601,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 29,
+    "y": 335
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e036e"
+    },
+    "labelX": 18.5,
+    "name": "Node Class 5",
+    "x": 30,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": -5,
+    "y": 25
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e036f"
+    },
+    "labelX": 20.5,
+    "name": "Node Class 10",
+    "x": 53,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": -4,
+    "y": 157
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0370"
+    },
+    "labelX": 19.5,
+    "name": "Node Class 11",
+    "x": 140,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": -6,
+    "y": 219
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0371"
+    },
+    "labelX": -18.5,
+    "name": "Node Class 12",
+    "x": 40,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 25,
+    "y": 343
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0372"
+    },
+    "labelX": -18.5,
+    "name": "Node Class 13",
+    "x": 152,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 25,
+    "y": 344
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0373"
+    },
+    "labelX": -18.5,
+    "name": "Node Class 14",
+    "x": 258,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 25,
+    "y": 345
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0374"
+    },
+    "labelX": -98.5,
+    "name": "Node Class 16",
+    "x": 828,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": -4,
+    "y": 39
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0375"
+    },
+    "labelX": -118.5,
+    "name": "Node Class 24",
+    "x": 1016,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 0,
+    "y": 38
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0376"
+    },
+    "labelX": 0,
+    "name": "Node Class 15",
+    "x": 165,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 0,
+    "y": 72
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0377"
+    },
+    "labelX": 0,
+    "name": "Node Class 6",
+    "x": 841,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 0,
+    "y": 244
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0378"
+    },
+    "labelX": 0,
+    "name": "Node Class 18",
+    "x": 841,
+    "expanded": true,
+    "_type": "nodeClass",
+    "labelY": 0,
+    "y": 304
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0379"
+    },
+    "labelX": 18.5,
+    "color": "",
+    "name": "CoreSwitch",
+    "configurationState": "Confirmed",
+    "addresses": "10.30.1.43,10.30.1.43:7662",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": -28,
+    "nodeClass": "Node Class 1"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e037a"
+    },
+    "labelX": -18.5,
+    "color": "",
+    "name": "AuthHosts",
+    "configurationState": "Confirmed",
+    "addresses": ":[20001-22442],:[22449-22973],:[30100-30999]",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 25,
+    "nodeClass": "Node Class 2"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e037b"
+    },
+    "labelX": 16.5,
+    "color": "",
+    "name": "OldBankSwitch",
+    "configurationState": "Confirmed",
+    "addresses": "10.30.1.238:[23000-23442],10.30.1.238:[23449-23631],10.30.1.238:[23633-23999],10.30.1.238:7665",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": -13,
+    "nodeClass": "Node Class 3"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e037c"
+    },
+    "labelX": -40,
+    "color": "",
+    "name": "OldBankATMs",
+    "configurationState": "Confirmed",
+    "addresses": ":",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": -29,
+    "nodeClass": "Node Class 4"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e037d"
+    },
+    "labelX": -18.5,
+    "color": "",
+    "name": "RetailPOS",
+    "configurationState": "Confirmed",
+    "addresses": "156.55.37.203",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 25,
+    "nodeClass": "Node Class 7"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e037e"
+    },
+    "labelX": 22.5,
+    "color": "",
+    "name": "NewBankSwitch",
+    "configurationState": "Confirmed",
+    "addresses": "10.30.1.97:7001",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": -2,
+    "nodeClass": "Node Class 8"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e037f"
+    },
+    "labelX": -81.5,
+    "color": "",
+    "name": "NewBankATMs",
+    "configurationState": "Confirmed",
+    "addresses": ":",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 29,
+    "nodeClass": "Node Class 9"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0380"
+    },
+    "labelX": 18.5,
+    "color": "",
+    "name": "Clients",
+    "configurationState": "Confirmed",
+    "addresses": ":",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": -5,
+    "nodeClass": "Node Class 5"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0381"
+    },
+    "labelX": 25.5,
+    "color": "",
+    "name": "Web Server",
+    "configurationState": "Confirmed",
+    "addresses": "192.168.168.143:8080,192.168.168.143:*",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 0,
+    "nodeClass": "Node Class 15"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0382"
+    },
+    "labelX": 20.5,
+    "color": "",
+    "name": "Broker",
+    "configurationState": "Confirmed",
+    "addresses": "192.168.168.207:5672,192.168.168.207:*",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": -4,
+    "nodeClass": "Node Class 10"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0383"
+    },
+    "labelX": 19.5,
+    "color": "",
+    "name": "Biz Logic",
+    "configurationState": "Confirmed",
+    "addresses": "192.168.168.170:5672,192.168.168.170:*",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": -6,
+    "nodeClass": "Node Class 11"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0384"
+    },
+    "labelX": -18.5,
+    "color": "",
+    "name": "Delivery Quote",
+    "configurationState": "Confirmed",
+    "addresses": "159.204.50.123:80",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 25,
+    "nodeClass": "Node Class 12"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0385"
+    },
+    "labelX": -18.5,
+    "color": "",
+    "name": "Payment Processor",
+    "configurationState": "Confirmed",
+    "addresses": "192.168.168.172:54321",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 25,
+    "nodeClass": "Node Class 13"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0386"
+    },
+    "labelX": -18.5,
+    "color": "",
+    "name": "DB Server",
+    "configurationState": "Confirmed",
+    "addresses": "192.168.168.168:1036",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 25,
+    "nodeClass": "Node Class 14"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0387"
+    },
+    "labelX": -69.5,
+    "color": "",
+    "name": "LendingClient",
+    "configurationState": "Confirmed",
+    "addresses": ":",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 22,
+    "nodeClass": "Node Class 18"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0388"
+    },
+    "labelX": -98.5,
+    "color": "",
+    "name": "LendingHost",
+    "configurationState": "Confirmed",
+    "addresses": "172.32.245.109:80,172.32.245.200:80,172.32.245.201:80,172.32.245.202:80,172.32.245.203:80,172.32.245.204:80,172.32.245.205:80,172.32.245.206:80",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": -4,
+    "nodeClass": "Node Class 16"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e0389"
+    },
+    "labelX": -118.5,
+    "color": "",
+    "name": "WebBankingServer",
+    "configurationState": "Confirmed",
+    "addresses": ":",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 0,
+    "nodeClass": "Node Class 24"
+  },
+  {
+    "_id": {
+      "$oid": "563120de670dc80e546e038a"
+    },
+    "labelX": -18.5,
+    "color": "",
+    "name": "BankingHost",
+    "configurationState": "Confirmed",
+    "addresses": "172.32.245.101:10101",
+    "_type": "node",
+    "observationState": "Observed",
+    "labelY": 25,
+    "nodeClass": "Node Class 6"
+  }
+]

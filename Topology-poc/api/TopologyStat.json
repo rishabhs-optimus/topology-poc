@@ -1,0 +1,140 @@
+{
+	"/transaction/LinkTrans.Group.Backend.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.NewBank2.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Delivery.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/ApplTrans.Overall.Rate": {
+		"2016-10-25T11:55:30.001Z": "1.00"
+	},
+	"/transaction/ServTrans.Overall.Rate": {
+		"2016-10-25T11:55:30.001Z": "9.00"
+	},
+	"/transaction/LinkTrans.Group.NewBank2.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Delivery.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Database.Rate": {
+		"2016-10-25T11:55:30.001Z": "4.00"
+	},
+	"/transaction/LinkTrans.Group.Payment.Rate": {
+		"2016-10-25T11:55:30.001Z": "7.00"
+	},
+	"/transaction/LinkTrans.Group.NewBank2.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Payment.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.02"
+	},
+	"/transaction/LinkTrans.Group.Delivery.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Database.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Payment.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "2.00"
+	},
+	"/transaction/LinkTrans.Group.NewBank1.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.NewBank1.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.NewBank1.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.WebBanking.Rate": {
+		"2016-10-25T11:55:30.001Z": "1.00"
+	},
+	"/transaction/LinkTrans.Group.Web.Rate": {
+		"2016-10-25T11:55:30.001Z": "6.00"
+	},
+	"/transaction/LinkTrans.Overall.Rate": {
+		"2016-10-25T11:55:30.001Z": "26.00"
+	},
+	"/transaction/LinkTrans.Group.Database.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.10"
+	},
+	"/transaction/LinkTrans.Group.Web.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Hosts.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Lending.Rate": {
+		"2016-10-25T11:55:30.001Z": "1.00"
+	},
+	"/transaction/LinkTrans.Group.Hosts.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Lending.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.02"
+	},
+	"/transaction/LinkTrans.Group.Hosts.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Lending.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.OldBank2.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/BusTrans.Overall.Rate": {
+		"2016-10-25T11:55:30.001Z": "6.00"
+	},
+	"/transaction/LinkTrans.Group.OldBank2.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Web.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.OldBank2.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.WebBanking.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.OldBank1.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Middleware.Rate": {
+		"2016-10-25T11:55:30.001Z": "3.00"
+	},
+	"/transaction/LinkTrans.Group.OldBank1.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Middleware.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.02"
+	},
+	"/transaction/LinkTrans.Group.WebBanking.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.04"
+	},
+	"/transaction/LinkTrans.Group.OldBank1.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Middleware.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.RetailPOS1.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Backend.Rate": {
+		"2016-10-25T11:55:30.001Z": "4.00"
+	},
+	"/transaction/LinkTrans.Group.RetailPOS1.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	},
+	"/transaction/LinkTrans.Group.Backend.Delay.Network.Average": {
+		"2016-10-25T11:55:30.001Z": "0.08"
+	},
+	"/transaction/LinkTrans.Group.RetailPOS1.Result.Failed.Rate": {
+		"2016-10-25T11:55:30.001Z": "0.00"
+	}
+}
